@@ -25,11 +25,11 @@ This is my personal developer portfolio website built using **HTML**, **CSS**, a
 ## 📁 Folder Structure
 Portfolio/
 │
-├── index.html # Main portfolio page
-├── style.css # Styling and animations
-├── script.js # Optional JavaScript (slider, form, etc.)
-├── /images # Screenshots or project images
-└── /assets # Fonts, icons, etc.
+- index.html # Main portfolio page
+- style.css # Styling and animations
+- script.js # Optional JavaScript (slider, form, etc.)
+- images # Screenshots or project images
+- assets # Fonts, icons, etc.
 
 ## 🧩 Features in Detail
 - About Me section crafted from real experience in frontend, backend, and sales
