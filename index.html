@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylex.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <div class="animated-bg">
+    <div class="container">
+
+      <header>
+        <div class="left">
+          <img src="images/bg.jpg" alt="logo">
+        </div>
+
+        <ul>
+          <li><a id="home" href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="box-icon">
+          <a href="https://www.linkedin.com/in/mayursonar910977/"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/mayursonar91/"><i class="bi bi-github"></i></a>
+          <a href="#contact"><i class="bi bi-envelope"></i></a>
+        </div>
+
+        <div class="menu-icon"><i class="bi bi-list"></i></div>
+      </header>
+
+      <div class="sidebar">
+        <div class="close-icon">
+          <i class="bi bi-x"></i>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-envelope-at"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+      <section class="hero">
+        <div class="hero-info autoBlur">
+          <div class="hero-info-title">
+            <i class="bi bi-gem"></i>
+            <span id="role-text" class="fade-slide">Full Stack Developer</span>
+          </div>
+          <h1 class="typewriter">
+            Building <span class="gradient">Smart Solutions</span><br />
+            for a <span class="gradient">Digital Future</span>
+          </h1>
+          <p class="fade-in-delay">
+            I'm Mayur — a passionate full-stack developer with a strong grasp of frontend and backend development.
+            From leading teams to building user-friendly applications, I combine code and creativity to deliver results.
+          </p>
+          <a href="#contact"><button class="fade-in-delay"><i class="bi bi-chevron-double-right"></i> Let’s Work Together</button></a>
+        </div>
+        <div class="hero-vid-box">
+          <img class="hero-image" src="images/MS.jpg" alt="Mayur">
+        </div>
+      </section>
+
+      <section id="about" class="info-section">
+        <h1 class="section-title autoDisplay">Hello, There👋</h1>
+        <div class="info-card">
+          <div class="card">
+            <h1>Hi, I'm Mayur</h1>
+            <p>I’m a passionate web developer who thrives on turning ideas into functional products. With a strong grip on both frontend and backend technologies, I bring creativity and structure together to craft user-first solutions.</p>
+            <img src="images/grid1.png" alt="card-image">
+          </div>
+          <div class="card">
+            <a href="#skill"><h1>Tech Stack</h1></a>
+            <p>Proficient in Java, React, Node.js, Express.js, MongoDB, and MySQL. I create full-stack apps that are fast, scalable, and secure — blending technology with smart UI/UX practices.</p>
+            <img src="images/grid2.png" alt="card-image">
+          </div>
+          <div class="card">
+            <h1>Why Work With Me?</h1>
+            <p>I bring a unique mix of technical expertise and real-world project's experience. I'm not just focused on writing code — I care about solving real problems, collaborating effectively, and delivering clean, maintainable solutions. With a strong sense of ownership, and a hunger to learn, I adapt quickly and always strive to add value to every project I take on.</p>
+            <!-- <img src="images/world-map.png" alt="Global Work"> -->
+            <a href="#contact"><button><i class="bi bi-box-arrow-up-right"></i> Contact Me</button></a>
+          </div>
+          <div class="card">
+            <h1>My Passion for Coding</h1>
+            <p>I love solving problems and building things through code. Programming isn't just my profession—it's my passion. I enjoy exploring new technologies and enhancing my skills.</p>
+            <img src="images/grid4.png" alt="card-image">
+          </div>
+        </div>
+      </section>
+
+      <section id="project" class="my-projects">
+        <h1 class="section-title autoDisplay">My Projects 🧑‍💻</h1>
+
+        <div class="projecct-card">
+          <div class="project-vidbox autoBlur image-slider">
+            <img src="images/Auth_Home.png" alt="Gaming Screenshot 1">
+            <img src="images/Auth_Sign.png" alt="Gaming Screenshot 2">
+            <img src="images/Auth_login.png" alt="Gaming Screenshot 3">
+            <img src="images/Auth_Verify.png" alt="Gaming Screenshot 4">
+            <img src="images/Auth_ResetE.png" alt="Gaming Screenshot 5">
+            <img src="images/Auth_ResetO.png" alt="Gaming Screenshot 6">
+            <img src="images/Auth_NewP.png" alt="Gaming Screenshot 7">
+          </div>
+          <div class="project-info fadeInRight">
+            <h1><span class="gradient">MERN</span> Auth System <span class="gradient">{AuthDev}</span></h1>
+            <p>A full-stack authentication system built with the MERN stack. Features include user registration, login, JWT token-based session handling, and secure route access. Perfect base for any protected user-based web application.</p>
+            <button><i class="bi bi-link"></i> Website</button>
+          </div>
+        </div>
+
+        <div class="projecct-card">
+          <div class="project-vidbox autoBlur image-slider">
+            <img src="images/Weather1.png" alt="Portfolio Screenshot 1">
+            <img src="images/Weather2.png" alt="Portfolio Screenshot 2">
+            <img src="images/Weather3.png" alt="Portfolio Screenshot 3">
+          </div>
+          <div class="project-info fadeInRight">
+            <h1><span class="gradient">Weather</span> App <span class="gradient">{CloudCheckr}</span></h1>
+            <p>A clean and responsive weather application that fetches real-time weather data using the OpenWeather API. Users can search any city and instantly get weather details like temperature, humidity, wind speed, and sky conditions with intuitive UI and animations.</p>
+            <a href="https://cloudcheckrnoweasy.netlify.app"><button><i class="bi bi-link"></i> Website</button></a>
+          </div>
+        </div>
+
+        <!-- <div class="projecct-card">
+          <div class="project-vidbox autoBlur image-slider">
+            <img src="images/project3-1.png" alt="Movie Screenshot 1">
+            <img src="images/project3-2.png" alt="Movie Screenshot 2">
+          </div>
+          <div class="project-info fadeInRight">
+            <h1>Movie <span class="gradient">Landing</span> Page</h1>
+            <p>Built for film lovers to discover and explore new movies through an engaging UI.</p>
+            <button><i class="bi bi-link"></i> Website</button>
+          </div>
+        </div> -->
+      </section>
+
+      <section id="skill" class="skills-section">
+        <h1 class="section-title autoDisplay">My Skills 💪</h1>
+        <div class="skills-box">
+          <!-- <img class="skills-image" src="images/digital brain (2).png" alt="skills-image"> -->
+          <div class="designer autoDisplay">
+            <h1 class="gradient">Designer <i class="bi bi-laptop"></i></h1>
+            <!-- <p>I have expertise in HTML, CSS, JavaScript, and design tools like Figma and Adobe XD. My strength lies in blending aesthetics with functionality.</p> -->
+            <p>I love turning ideas into clean, modern, and user-friendly interfaces. With a solid grasp of <strong>HTML, CSS, JavaScript</strong>, and UI libraries like <strong>Bootstrap</strong> and <strong>React</strong>, I build designs that look great and feel intuitive. My focus is always on usability, responsiveness, and creating a smooth experience across devices.</p>
+          </div>
+          <div class="coder autoDisplay">
+            <h1 class="gradient">Coder <i class="bi bi-code-slash"></i></h1>
+            <p>As a coder, I believe in writing clean, maintainable code. From frontend scripting to backend logic, I work comfortably with technologies like <strong>Java, Python, ReactJS, MongoDB</strong>, and <strong>MySQL</strong>. Whether it's building APIs or crafting interactive web apps, I enjoy solving problems through code and continuously improving my craft.</p>
+            <!-- <p>Skilled in HTML, CSS, JavaScript, React, Node.js, MongoDB, and MySQL to build full-stack applications.</p> -->
+          </div>
+          <div class="slider" reverse="true" style="--width: 100px; --height: 100px; --quantity: 14;">
+            <div class="list">
+              <div class="item"><img src="images/Html.png" alt="slider-image"></div>
+              <div class="item"><img src="images/Css.png" alt="slider-image"></div>
+              <div class="item"><img src="images/JavaScript (2).png" alt="slider-image"></div>
+              <div class="item"><img src="images/BootStrap.png" alt="slider-image"></div>
+              <div class="item"><img src="images/ReactJS.png" alt="slider-image"></div>
+              <div class="item"><img src="images/NodeJs.png" alt="slider-image"></div>
+              <div class="item"><img src="images/MongoDB.png" alt="slider-image"></div>
+              <div class="item"><img src="images/MySQL.png" alt="slider-image"></div>
+              <div class="item"><img src="images/SQL.png" alt="slider-image"></div>
+              <div class="item"><img src="images/Java.png" alt="slider-image"></div>
+              <div class="item"><img src="images/Spring.png" alt="slider-image"></div>
+              <div class="item"><img src="images/SpringBoot.png" alt="slider-image"></div>
+              <div class="item"><img src="images/python.png" alt="slider-image"></div>
+              <div class="item"><img src="images/GitHub.png" alt="slider-image"></div>
+
+              <div class="item"><img src="images/Html.png" alt="slider-image"></div>
+              <div class="item"><img src="images/Css.png" alt="slider-image"></div>
+              <div class="item"><img src="images/JavaScript (2).png" alt="slider-image"></div>
+              <div class="item"><img src="images/BootStrap.png" alt="slider-image"></div>
+              <div class="item"><img src="images/ReactJS.png" alt="slider-image"></div>
+              <div class="item"><img src="images/NodeJs.png" alt="slider-image"></div>
+              <div class="item"><img src="images/MongoDB.png" alt="slider-image"></div>
+              <div class="item"><img src="images/MySQL.png" alt="slider-image"></div>
+              <div class="item"><img src="images/SQL.png" alt="slider-image"></div>
+              <div class="item"><img src="images/Java.png" alt="slider-image"></div>
+              <div class="item"><img src="images/Spring.png" alt="slider-image"></div>
+              <div class="item"><img src="images/SpringBoot.png" alt="slider-image"></div>
+              <div class="item"><img src="images/python.png" alt="slider-image"></div>
+              <div class="item"><img src="images/GitHub.png" alt="slider-image"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h1 class="section-title autoDisplay">let's talk 😊</h1>
+        <div class="contact-box autoBlur">
+          <p>Whether you're looking to build a new website or bring a unique project to life — I'm here to help.</p>
+          <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <input type="hidden" name="access_key" value="9582d886-19ac-4a4b-a35a-4e4bbd2f9221">
+            <p>Full Name</p>
+            <input type="text" name="from_name" placeholder="Your Full Name" required />
+            <p>Email Address</p>
+            <input type="email" name="from_email" placeholder="Your Email" required />
+            <p>Your Message</p>
+            <input class="input-message" type="text" name="message" placeholder="Share Your Thoughts..." required />
+            <button type="submit"><i class="bi bi-send"></i> Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="social-box autoBlur">
+          <a href="tel:+919109777511"><i class="bi bi-telephone"></i> +91 9109777511 </a>
+          <a href="https://github.com/mayursonar91/"><i class="bi bi-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/mayursonar910977/"><i class="bi bi-linkedin"></i> Linkedin</a>
+          <!-- <div class="social-icons">
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </div> -->
+        </div>
+        <h1>Thank You</h1>
+      </footer>
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
